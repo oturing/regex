@@ -11,6 +11,10 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   introducao
+   python_re
+
+   glossary
 
 
 Indices and tables
