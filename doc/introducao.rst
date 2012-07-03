@@ -15,8 +15,8 @@ curinga que casa com um dígito.
 
 O verbo :term:`casar` aqui está sendo usado tradução para *match*, no sentido
 de *combinar*, *encaixar*, *parear*. Dizemos que a expressão ``\d,\d\d`` casa
-com 1,23 mas não casa com ``123`` (falta a vírgula) nem com 1,2c ("c" é um
-dígito e não casa com ``\d``).
+com 1,23 mas não casa com ``123`` (falta a vírgula) nem com ``1,2c`` ("c" não
+casa com ``\d``, porque não é um dígito).
 
 O termo em inglês é *regular expression* de onde vem as abreviações *regex* e
 ``re`` (o nome do módulo Python). Na ciência da computação, o termo tem um
@@ -104,7 +104,7 @@ metacaractere conhecido como       significado
 Quantificadores
 ---------------
 
-Definem o número de repetições da expressão regular precedente. 
+Definem o número permitido repetições da expressão regular precedente.
 
 ============= ===========================================
 metacaractere significado
@@ -143,6 +143,7 @@ metacaractere significado
 ``\B``        posição de não-borda
 ============= ==============================================================
 
+Veja o grupo de exercícios :ref:`exer_ancoras`.
 
 Agrupamento
 -----------

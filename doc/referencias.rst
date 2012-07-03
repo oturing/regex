@@ -2,49 +2,78 @@
 Onde aprender mais
 ==================
 
+Documentação oficial do Python
+==============================
+
+- **Regular Expression HOWTO**
+    http://docs.python.org/howto/regex.html
+
+- **Python Documentation: ``re`` — Regular expression operations**
+    http://docs.python.org/library/re.html
+
 Livros
 ======
 
 
-.. figure:: _static/capa-piazinho.jpg
-   :scale: 30 %
+.. list-table::
+   :widths: 100 500
+   :header-rows: 0
 
-   Expressões regulares: uma abordagem 
-   divertida (3ª edição)
+   * - .. image:: _static/capa-piazinho.jpg
+          :width: 100
 
-   :Autor: Aurélio Marinho Jargas
-   :Editora: Novatec
+     - **Expressões regulares: uma abordagem divertida (3ª edição)**
 
-.. figure:: _static/mastering-regex.jpg
-   :scale: 30 %
+       :autor: Aurélio Marinho Jargas
+       :editora: Novatec
 
-   Mastering regular expressions (3rd. ed.)
+   * - .. image:: _static/mastering-regex.jpg
+          :width: 100
 
-   :Autor: Jeffrey E. F. Friedl
-   :Editora: O'Reilly
+     - **Mastering regular expressions (3rd. ed.)**
 
-regex-cookbook.jpg   
+       :autor: Jeffrey E. F. Friedl
+       :editora: O'Reilly
 
-.. figure:: _static/regex-cookbook.jpg
-   :scale: 30 %
+   * - .. image:: _static/regex-cookbook.jpg
+          :width: 100
 
-   Regular Expressions Cookbook
+     - **Regular Expressions Cookbook**
 
-   :Autores: Jan Goyvaerts, Steven Levithan
-   :Editora: O'Reilly
+       :autores: Jan Goyvaerts, Steven Levithan
+       :editora: O'Reilly
+
 
 Resumos
 =======
 
-.. figure:: _static/regular-expressions-cheat-sheet-v2.png
-   :scale: 10 %
+.. list-table::
+   :widths: 400 200
+   :header-rows: 0
 
-   Regular Expressions Cheat Sheer v. 2
+   * - **Tabelas do livro "Expressões regulares"**
 
-.. figure:: _static/post-it-do-adriano-petrich.jpg
-   :scale: 10 %
+       :autor: Aurélio Marinho Jargas
+       :url: http://www.piazinho.com.br/download/expressoes-regulares-3-tabelas.pdf
 
-   Post-it® do Adriano Petrich
+     - .. image:: _static/tabelas-do-aurelio.png
+          :width: 300
+
+   * - **Regular Expressions Cheat Sheer v. 2**
+
+       :autor: Dave Child
+       :url: http://www.addedbytes.com/cheat-sheets/regular-expressions-cheat-sheet/
+
+     - .. image:: _static/regular-expressions-cheat-sheet-v2.png
+          :width: 200
+
+   * - **Post-it® do Adriano**
+
+       :autor: Adriano Petrich
+
+     - .. image:: _static/post-it-do-adriano-petrich.jpg
+          :scale: 10 %
+
 
 Software
 ========
