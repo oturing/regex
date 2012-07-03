@@ -3,16 +3,18 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Mini Tutorial RegEx's documentation!
-===============================================
+Mini Tutorial RegEx 
+===================
 
-Contents:
+Sumário:
 
 .. toctree::
    :maxdepth: 2
 
    introducao
    python_re
+   exercicios
+   referencias
 
    glossary
 

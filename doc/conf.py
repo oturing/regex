@@ -96,14 +96,14 @@ html_theme = 'default'
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-#html_theme_options = {}
+html_theme_options = {'collapsiblesidebar':True, 'externalrefs':True}
 
 # Add any paths that contain custom themes here, relative to this directory.
 #html_theme_path = []
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-#html_title = None
+html_title = u'Mini Tutorial RegEx'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -128,7 +128,7 @@ html_static_path = ['_static']
 
 # If true, SmartyPants will be used to convert quotes and dashes to
 # typographically correct entities.
-#html_use_smartypants = True
+html_use_smartypants = True
 
 # Custom sidebar templates, maps document names to template names.
 #html_sidebars = {}
@@ -183,7 +183,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'MiniTutorialRegEx.tex', u'Mini Tutorial RegEx Documentation',
+  ('index', 'MiniTutorialRegEx.tex', u'Mini Tutorial RegEx',
    u'Luciano Ramalho', 'manual'),
 ]
 
@@ -213,7 +213,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'minitutorialregex', u'Mini Tutorial RegEx Documentation',
+    ('index', 'minitutorialregex', u'Mini Tutorial RegEx',
      [u'Luciano Ramalho'], 1)
 ]
 
@@ -227,7 +227,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'MiniTutorialRegEx', u'Mini Tutorial RegEx Documentation',
+  ('index', 'MiniTutorialRegEx', u'Mini Tutorial RegEx',
    u'Luciano Ramalho', 'MiniTutorialRegEx', 'One line description of project.',
    'Miscellaneous'),
 ]
