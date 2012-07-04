@@ -5,9 +5,13 @@ Expressões regulares: introdução
 Idéia básica
 ============
 
-Uma expressão regular é uma notação para representar **padrões** em strings.
-Serve para validar entradas de dados ou fazer busca e extração de informações
-em textos.
+Uma expressão regular é uma notação para representar **padrões** em textos.
+Serve para:
+
+- validar entradas de dados (**match**);
+- localizar e extrair informações em textos (**search**);
+- alterar textos conforme padrões (**replace**);
+- quebrar textos em partes delimitadas por padrões (**split**);
 
 Por exemplo, para verificar se um dado fornecido é um número de 0,00 a 9,99
 pode-se usar a expressão regular ``\d,\d\d``, pois o símbolo ``\d`` é um
@@ -84,8 +88,8 @@ metacaractere conhecido como       significado
 ============= ==================== ===========================================
 ``.``         curinga              qualquer caractere, exceto a quebra de 
                                    linha ``\n`` (ver :ref:`flag_dotall`)
-``[...]``     conjunto             qualquer caractere incluido no conjunto
-``[^...]``    conjunto negado      qualquer caractere não incluido no conjunto
+``[ ]``       conjunto             qualquer caractere incluido no conjunto
+``[^  ]``     conjunto negado      qualquer caractere não incluido no conjunto
 ``\d``        dígito               o mesmo que ``[0-9]``
 ``\D``        não-digíto           o mesmo que ``[^0-9]``
 ``\s``        branco               espaço, quebra de linha, tabs etc.; 
@@ -129,19 +133,19 @@ Estabelecem posições de referência para o casamento do restante da regex. Not
 que estes metacaracteres não casam com caracteres no texto, mas sim com
 posições antes, depois ou entre os caracteres.
 
-============= ==============================================================
+============= =================================================================
 metacaractere significado
-============= ==============================================================
-``^``         início do texto, ou de uma linha com o flag ``re.MULTILINE``
+============= =================================================================
+``^``         início do texto, ou de uma linha com o flag :ref:`flag_multiline`
 ``\A``        início do texto
-``$``         fim do texto, ou de uma linha com o flag ``re.MULTILINE``;
+``$``         fim do texto, ou de uma linha com o flag :ref:`flag_multiline`;
               não captura o ``\n`` no fim do texto ou da linha
 ``\Z``        fim do texto
 ``\b``        posição de borda, logo antes do início de uma palavra, ou logo 
               depois do seu término; o mesmo que a posição entre ``\W``
               e ``\w`` ou vice-versa
 ``\B``        posição de não-borda
-============= ==============================================================
+============= =================================================================
 
 Veja o grupo de exercícios :ref:`exer_ancoras`.
 

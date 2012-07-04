@@ -13,7 +13,7 @@ Exercícios
 1.1. CPF com ou sem pontuação
 -----------------------------
 
-A expressão regular ``\d{3}\.\d{3}\.\d{3}\/\d{2}`` casa um CPF como
+A expressão regular ``\d{3}\.\d{3}\.\d{3}\-\d{2}`` casa um CPF como
 772.843.809-34. Inclua quantificadores para que a pontuação seja opcional. 
 
 A regex resultante deve casar com 77284380934.
@@ -36,7 +36,7 @@ casando com as strings aceitas pela solução de 1.1.
 2.1. Escreva uma regex capaz de encontrar no texto deste parágrafo todas as
 palavras que teriminam com a letra "o".
 
-2.2. Escreva uma regex capas de encontrar no parágrafo acima todas as palavras
+2.2. Escreva uma regex capaz de encontrar no parágrafo acima todas as palavras
 que começam e terminam com vogais.
 
 
@@ -46,7 +46,10 @@ que começam e terminam com vogais.
 3.1. Hora e minutos
 -------------------
 
-Na seção :ref:`alguns_exem` da Introdução foi apresentada a expressão regular ``[012]\d:[0-5]\d`` para validar horas e minutos no formato HH:MM. Porém esta regex aceita o texto 25:00 que não é uma hora válida. Modifique a regex para corrigir esta falha. A solução envolve o uso 
+Na seção :ref:`alguns_exem` da Introdução foi apresentada a expressão regular
+``[012]\d:[0-5]\d`` para validar horas e minutos no formato HH:MM. Porém esta
+regex aceita o texto 25:00 que não é uma hora válida. Modifique a regex para
+corrigir esta falha. A solução envolve o uso do metacaractere ``|``.
 
 3.2. Octeto de endereços IPv4
 -----------------------------

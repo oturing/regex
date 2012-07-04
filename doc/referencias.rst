@@ -83,4 +83,10 @@ Software
 
    RegexBuddy (Windows, $39.95)
 
+Kodos Python RegEx Debugger
+
+Google SpreadSheet
+
+
+
 

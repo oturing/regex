@@ -91,8 +91,17 @@ Flags: ajustes no funcionamento das regex
 -------------
 
 Faz com que o metacaractere ``.`` case com qualquer caractere, inclusive a
-quebra de linha ``\n``. Sem esta opção, ``.`` casa qualquer caractere exceto o
-``\n``.
+quebra de linha ``\n``. Sem esta opção, ``.`` por default casa qualquer
+caractere exceto o ``\n``.
+
+.. _flag_multiline:
+
+``re.MULTILINE``
+----------------
+
+Faz com que os metacaracteres ``^`` e ``$`` casem com o início e o fim do
+texto, e não com o início e o fim de uma linha, como ocorre por default.
+
 
 .. _flag_unicode:
 
